@@ -9,15 +9,15 @@
 <header>
 <nav>
     <a href="#profile">Profile</a>
-        <span>|</span>
+        <span aria-hidden="true">|</span>
     <a href="#skills">Skill</a>
-        <span>|</span>
+        <span aria-hidden="true">|</span>
     <a href="#education">Education</a>
-        <span>|</span>    
+        <span aria-hidden="true">|</span>    
     <a href="#awardsandachievements">Awards and Achievements</a>
-        <span>|</span>
+        <span aria-hidden="true">|</span>
     <a href="#contactme">Contact Me</a>
-        <span>|</span>
+        <span aria-hidden="true">|</span>
 </nav>
 </header>
 <main>
@@ -26,9 +26,9 @@
     <h1>Jairuz Jeriel N. Cortez </h1>
     <div id="info">
     <a href="mailto:jairuzcortez@gmail.com">jairuzcortez@gmail.com</a>
-    <span>|</span>
+    <span aria-hidden="true">|</span>
     <a href="tel:+639182698415">09182698415</a>
-    <span>|</span>
+    <span aria-hidden="true">|</span>
     <a href="https://github.com/cortez2434849-arch/PRIN135-PrelimExam-Cortez.git" target="_blank">Github Profile</a> 
     </div>
     <p id="summary"> I am a graduate of CEU who will always to find a way to solve a problem. </p>
@@ -63,8 +63,40 @@
 </section>
 <section id="contactme">
 <h2>Contact Me</h2>
-
+<form action="#" method="post">
+    <div>
+        <label for="name">Name:</label><br>
+        <input id="name" maxlength="25" type="text" placeholder="John Doe" required>
+    </div>
+    <br>
+    <div>
+    <label for="email">Email:<label><br>
+    <input id="email"  maxlength="25" placeholder="johndoe@gmail.com" required>
+    </div>
+    <br>
+    <div>
+    <label for="message">Message:</label><br>
+    <textarea id="message" rows="3" maxlength="255" placeholder="Enter your message here"></textarea>
+    </div>
+    <br>
+    <button aria-labelledby="contact-header" type="submit">Contact Me</button>
+</form>
+</section>
 </main>
+<footer>
+<nav>
+    <a href="#profile">Profile</a>
+        <span aria-hidden="true">|</span>
+    <a href="#skills">Skill</a>
+        <span aria-hidden="true">|</span>
+    <a href="#education">Education</a>
+        <span aria-hidden="true">|</span>    
+    <a href="#awardsandachievements">Awards and Achievements</a>
+        <span aria-hidden="true">|</span>
+    <a href="#contactme">Contact Me</a>
+        <span aria-hidden="true">|</span>
+</nav>
+</footer>
 </body>
 
 </html>
